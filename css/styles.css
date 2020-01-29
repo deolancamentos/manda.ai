@@ -192,7 +192,7 @@ a.white {
 }
 
 .btn-outline-reg:hover {
-	background-color: #13a3d8;
+	background-color: #ffffff;
 	color: #fff;
 	text-decoration: none;
 }
@@ -210,7 +210,7 @@ a.white {
 }
 
 .btn-outline-lg:hover {
-	background-color: #13a3d8;
+	background-color: #ffffff;
 	color: #fff;
 	text-decoration: none;
 }
@@ -673,7 +673,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #13a3d8;
+	color: #ffffff;
 }
 
 /* Dropdown Menu */
@@ -720,7 +720,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #13a3d8;
+	color: #ffffff;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -900,7 +900,7 @@ input[type='checkbox'] {
 .tabs .nav-link:hover {
 	border-bottom: 0.1875rem solid #13a3d8;
 	background-color: transparent;
-	color: #13a3d8;
+	color: #ffffff;
 }
 
 .tabs .nav-link .fas {
@@ -1011,7 +1011,7 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
-	background: url('../images/video-background.jpg') center center no-repeat;
+	background: url('../images/top.png') center center no-repeat;
 	background-size: cover; 
 }
 
@@ -1283,7 +1283,7 @@ input[type='checkbox'] {
 .basic-4 {
 	padding-top: 6.5rem;
 	padding-bottom: 6.75rem;
-	background: url('../images/download-background.jpg') center center no-repeat;
+	background: url('../images/top.png') center center no-repeat;
 	background-size: cover; 
 }
 
@@ -1577,7 +1577,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #13a3d8;
+		color: #ffffff;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -1597,7 +1597,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #13a3d8;
+		color: #262431;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1772,11 +1772,11 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-2x {
-		color: #fff;
+		color: #13a3d8;
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #13a3d8;
+		color: #ffffff;
 	}
 	/* end of navigation */
 
