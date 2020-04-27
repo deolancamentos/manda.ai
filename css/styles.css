@@ -1004,6 +1004,23 @@ input[type='checkbox'] {
 	margin: 0 auto 3rem auto;
 }
 
+.tabs #tab-4 .icon-cards-area .card {
+	width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-4 .text-area {
+	margin-top: 0.75rem;
+	margin-bottom: 4rem;
+}
+
+.tabs #tab-4 h3 {
+	margin-bottom: 0.75rem;
+}
+
+.tabs #tab-4 img {
+	margin: 0 auto 3rem auto;
+}
+
 
 /*********************/
 /*     06. Video     */
@@ -1690,6 +1707,25 @@ a:hover.back-to-top {
 	.tabs #tab-3 img {
 		margin-bottom: 0;
 	}
+
+	.tabs #tab-4 .text-area {
+		margin-bottom: 0;
+	}
+
+	.tabs #tab-4 .icon-cards-area .card {
+		display: inline-block;
+		width: 44%;
+		margin-right: 2.5rem;
+		vertical-align: top;
+	}
+
+	.tabs #tab-4 div.card:nth-child(2n+2) {
+		margin-right: 0;
+	}
+
+	.tabs #tab-4 img {
+		margin-bottom: 0;
+	}
 	/* end of features */
 
 
@@ -1845,6 +1881,15 @@ a:hover.back-to-top {
 	}
 
 	.tabs #tab-3 .icon-cards-area .card p {
+		margin-bottom: 0.5rem;
+	}
+
+	.tabs #tab-4 .icon-cards-area .card {
+		width: 45%;
+		margin-right: 3.5rem;
+	}
+
+	.tabs #tab-4 .icon-cards-area .card p {
 		margin-bottom: 0.5rem;
 	}
 	/* end of features */
@@ -2037,6 +2082,25 @@ a:hover.back-to-top {
 	}
 	
 	.tabs #tab-3 .text-area {
+		margin-right: 1.5rem;
+		margin-left: 1rem;
+	}
+
+	.tabs #tab-4 .container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
+	
+	.tabs #tab-4 .icon-cards-area {
+		margin-top: 2rem;
+		margin-left: 1rem;
+	}
+
+	.tabs #tab-4 .icon-cards-area .card {
+		margin-right: 3.875rem;
+	}
+	
+	.tabs #tab-4 .text-area {
 		margin-right: 1.5rem;
 		margin-left: 1rem;
 	}
