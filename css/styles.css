@@ -967,7 +967,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-2 img {
-	display: block;
+	display: inline-block;
 	margin: 0 auto 2rem auto;
 }
 
@@ -1670,6 +1670,16 @@ a:hover.back-to-top {
 		width: 85%;
 	}
 
+	.tabs #tab-2 .card.left-pane .text-wrapper {
+		width: 85%;
+	}
+	.tabs #tab-3 .card.left-pane .text-wrapper {
+		width: 85%;
+	}
+	.tabs #tab-4 .card.left-pane .text-wrapper {
+		width: 85%;
+	}
+
 	.tabs #tab-2 img {
 		margin-bottom: 0;
 	}
@@ -1700,9 +1710,9 @@ a:hover.back-to-top {
 		vertical-align: top;
 	}
 
-	.tabs #tab-3 div.card:nth-child(2n+2) {
+	/* .tabs #tab-3 div.card:nth-child(2n+2) {
 		margin-right: 0;
-	}
+	} */
 
 	.tabs #tab-3 img {
 		margin-bottom: 0;
