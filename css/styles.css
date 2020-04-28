@@ -1042,6 +1042,8 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
+
+
 .basic-1 .image-container img {
 	border-radius: 0.375rem;
 }
@@ -1794,6 +1796,8 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
+
+	
 	
 	/* Navigation */
 	.navbar-custom .social-icons {
@@ -2180,3 +2184,11 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+@media only screen and (max-width: 768px){
+	.img-mob{
+		display: none !important;
+	}
+}
+
+
