@@ -131,7 +131,7 @@ a.white {
 	font: 700 1rem/1.5rem "Montserrat", sans-serif;
 }
 
-.btn-solid-reg {
+.btn-Flid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	border: 0.125rem solid #13a3d8;
@@ -765,26 +765,28 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/top.png') center center no-repeat;
+	/* background-image: linear-gradient(to right top, #13a3d8, #1ca9dd, #24aee3, #2bb4e8, #31baed);; */
+	background-color: #0097CE;
 	background-size: cover;
 }
 
 .header .header-content {
-	padding-top: 8.5rem;
+	/* padding-top: 8.5rem; */
 	padding-bottom: 7rem;
 	text-align: center;
 }
 
-.header .text-container {
+/* .header .text-container {
 	margin-bottom: 3rem;
-}
+} */
 
 .header h1 {
 	margin-bottom: 1rem;
 }
 
 .header #js-rotating {
-	color: #40e0ee;
+	/* color: #40e0ee; */
+	color: #2e3545;
 }
 
 .header .p-large {
@@ -864,7 +866,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: #2e3545;
 }
 
 .tabs h2 {
@@ -1028,7 +1030,7 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
-	background: url('../images/top.png') center center no-repeat;
+	background-color: #0097CE;
 	background-size: cover; 
 }
 
@@ -1050,6 +1052,11 @@ input[type='checkbox'] {
 
 .basic-1 .video-wrapper {
 	position: relative;
+}
+
+.video-wrapper{
+	box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px 2px !important;
+    border-radius: 5px;
 }
 
 /* Video Play Button */
@@ -1135,7 +1142,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 8rem;
 	padding-bottom: 3.5rem;
-	background-color: #262431;
+	background-color: #2e3545;
 }
 
 .basic-2 img {
@@ -1160,9 +1167,9 @@ input[type='checkbox'] {
 	background-color: #262431;
 }
 
-.basic-3 .text-container {
+/* .basic-3 .text-container {
 	margin-bottom: 3.5rem;
-}
+} */
 
 .basic-3 h3 {
 	margin-bottom: 1.125rem;
@@ -1258,7 +1265,7 @@ input[type='checkbox'] {
 .slider-2 {
 	padding-top: 6.875rem;
 	padding-bottom: 6.875rem;
-	background-color: #2f2c3d;
+	background-color: #0097CE;
 }
 
 .slider-2 .slider-container {
@@ -1302,7 +1309,7 @@ input[type='checkbox'] {
 .basic-4 {
 	padding-top: 6.5rem;
 	padding-bottom: 6.75rem;
-	background: url('../images/top.png') center center no-repeat;
+	background-color: #FFFFFF;
 	background-size: cover; 
 }
 
