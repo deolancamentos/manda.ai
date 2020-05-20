@@ -771,14 +771,14 @@ input[type='checkbox'] {
 }
 
 .header .header-content {
-	/* padding-top: 8.5rem; */
+	padding-top: 8.5rem;
 	padding-bottom: 7rem;
 	text-align: center;
 }
 
-/* .header .text-container {
+.header .text-container {
 	margin-bottom: 3rem;
-} */
+} 
 
 .header h1 {
 	margin-bottom: 1rem;
